@@ -58,7 +58,7 @@ class Application:
 
     def create_new_contact(self, contact):
         wd = self.wd
-        wd.open_new_contact_page()
+        self.open_new_contact_page()
         # name info
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
