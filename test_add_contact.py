@@ -35,4 +35,5 @@ def test_add_contact(app):
                                    email2="-",
                                    email3="-"))
 
-    app.gout()
+
+    app.logout()
